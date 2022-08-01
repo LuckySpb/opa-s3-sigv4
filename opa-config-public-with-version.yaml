@@ -1,0 +1,8 @@
+services:
+  users_s3:
+    url: https://opa-s3-test1-public.s3.amazonaws.com
+
+bundles:
+  authz:
+    service: users_s3
+    resource: authz.tar.gz?versionId=0LdyQdHFVgm_GgzSb4seaoOjBDwl3Fgx
