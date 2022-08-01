@@ -7,6 +7,7 @@ To reproduce error: configure env variables for aws credentials and run:
 ```shell
 opa run --server --config-file opa-config-auth-with-version.yaml --log-level debug
 ```
+S3 buckets are already configured to properly reproduce the issue
 
 # Details
 
