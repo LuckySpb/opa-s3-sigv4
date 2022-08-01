@@ -93,6 +93,7 @@ OPA config
 opa run --server --config-file opa-config-auth-no-version.yaml --log-level debug
 curl localhost:8181/v1/data
 ```
+You will see successfull data
 
 ### With version
 ```shell
